@@ -1,0 +1,4 @@
+# 실행·개발용 패키지
+yt-dlp[default]==2026.10.21
+customtkinter==6.0.0
+pillow==13.0.0

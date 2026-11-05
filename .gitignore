@@ -1,0 +1,20 @@
+# 파이썬
+__pycache__/
+*.py[cod]
+
+# 빌드 결과물 (tools\build.ps1 로 다시 만들 수 있음, 설치 파일은 GitHub Releases에 올린다)
+dist/
+
+# FFmpeg·Node.js 실행 파일은 용량이 크고 공식 배포처에서 받을 수 있어 저장소에 넣지 않는다
+# 라이선스 원문만 저장소에 둔다
+bin/*
+!bin/FFMPEG_LICENSE.txt
+!bin/NODE_LICENSE.txt
+
+# 개인 설정·내려받은 영상
+settings.json
+downloads/
+
+# 기타
+nuitka-crash-report.xml
+Thumbs.db

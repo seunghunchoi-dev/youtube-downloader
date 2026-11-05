@@ -1,0 +1,69 @@
+YouTube Downloader 라이선스
+Copyright (c) 2026 최승훈 (gwchoi.com, gwchoi96@gmail.com). All rights reserved.
+
+이 소프트웨어(소스 코드, 실행 파일, 사용설명서, 이미지 등 저작자의 저작물 일체)의
+저작권은 저작자에게 있습니다. 소스 코드를 공개하지만 오픈소스 라이선스는 아닙니다.
+아래에서 허용하지 않은 권리는 모두 저작자에게 있습니다.
+
+1. 허용되는 것
+   - 공식 배포처에서 프로그램과 소스 코드를 내려받는 것
+   - 프로그램을 설치 시 동의한 사용권 계약서(EULA)에 따라 사용하는 것
+   - 소스 코드를 열람하고, 수정하지 않은 상태로 본인 PC에서 직접 빌드·실행하는 것
+   - GitHub 서비스 약관이 보장하는 범위에서 GitHub 안에서 열람하고 포크하는 것
+     (포크는 원본 그대로의 사본에 대해서만 허용되며, 이 라이선스의 금지 사항은 포크에도 적용됩니다)
+   - 공식 배포처 링크를 공유하는 것
+     공식 배포처: https://github.com/seunghunchoi-dev/youtube-downloader
+
+2. 저작자의 사전 서면 허락 없이 금지되는 것
+   - 소스 코드 또는 실행 파일을 수정·변경·번역하거나 2차적 저작물을 만드는 것
+   - 원본 또는 수정본을 다른 웹사이트·커뮤니티·저장소 등에 다시 올리거나 배포·판매·대여하는 것
+   - 실행 파일을 역컴파일·역설계하는 것
+   - 저작자 표시와 이 라이선스 문구를 지우거나 바꾸는 것
+
+3. 이용자의 책임
+   저작권자의 허락을 받았거나 정당한 이용 권한이 있는 영상에만 사용하세요.
+   영상의 다운로드·이용에 따른 책임과 YouTube 서비스 약관 준수 책임은 이용자에게 있습니다.
+
+4. 보증의 부인과 책임의 제한
+   이 소프트웨어는 "있는 그대로" 제공되며 어떠한 보증도 하지 않습니다.
+   법률이 허용하는 최대 범위에서, 사용으로 인해 생긴 손해에 대해 저작자는 책임지지 않습니다.
+
+5. 제3자 구성 요소
+   함께 쓰이는 제3자 구성 요소(FFmpeg, Node.js, yt-dlp, CustomTkinter, Pillow, Python 등)는
+   각자의 라이선스를 따르며, 이 라이선스는 그 권리를 제한하지 않습니다.
+   자세한 내용은 installer/THIRD_PARTY_NOTICES.txt 를 참고하세요.
+
+"YouTube"는 Google LLC의 상표입니다. 이 프로그램은 YouTube 또는 Google과 관련이 없으며
+그들의 후원이나 보증을 받지 않습니다.
+
+허락이 필요하면 gwchoi96@gmail.com 으로 문의하세요.
+
+----------------------------------------------------------------------
+
+YouTube Downloader License
+Copyright (c) 2026 Choi Seunghoon. All rights reserved.
+
+The source code is publicly available, but this is NOT an open source license.
+You may download the program and source code from the official repository, use the
+program under its End User License Agreement, read the source code, build and run it
+unmodified on your own PC, view and fork it on GitHub as guaranteed by the GitHub Terms
+of Service, and share links to the official repository.
+
+Without prior written permission from the author you may NOT modify, translate or create
+derivative works of the source code or executables; redistribute, sell or rent the original
+or modified versions; decompile or reverse engineer the executables; or remove the
+copyright and license notices. These restrictions also apply to forks.
+
+You are responsible for only downloading content you are authorized to use and for
+complying with the YouTube Terms of Service.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. To the maximum extent
+permitted by law, the author is not liable for any damages arising from its use.
+
+Third-party components keep their own licenses, and this license does not limit the rights
+they grant. See installer/THIRD_PARTY_NOTICES.txt.
+
+"YouTube" is a trademark of Google LLC. This program is not affiliated with, sponsored by
+or endorsed by YouTube or Google.
+
+The Korean text above takes precedence. For permissions: gwchoi96@gmail.com

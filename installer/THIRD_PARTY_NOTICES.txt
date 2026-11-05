@@ -1,0 +1,58 @@
+YouTube Downloader - 제3자 구성 요소 고지 (Third-Party Notices)
+
+YouTube Downloader 자체는 Copyright (c) 2026 최승훈. All rights reserved. 입니다.
+아래 공개 소프트웨어는 함께 배포되지만 각자의 라이선스를 따르며,
+YouTube Downloader의 사용권 계약은 이 구성 요소들에 적용되지 않습니다.
+각 라이선스 원문은 설치 폴더의 licenses 폴더에 들어 있습니다.
+
+1. FFmpeg (LGPL 3.0 이상 빌드)
+   - 용도: 영상·음성 스트림을 재인코딩 없이 MP4로 합치기
+   - 포함 파일: bin\ffmpeg.exe, bin\ffprobe.exe, bin\*.dll
+   - 버전: n9.0.2-35-g9a9b70bb8c-20261023 (GPL 전용 구성 요소 없음)
+   - 라이선스: GNU Lesser General Public License v3 이상 (licenses\FFMPEG_LICENSE.txt)
+   - 빌드 출처: https://github.com/BtbN/FFmpeg-Builds (win64 lgpl shared)
+   - 소스 코드: https://github.com/FFmpeg/FFmpeg/tree/9a9b70bb8c
+     같은 소스를 프로그램 배포 페이지(GitHub Releases)에서도 받을 수 있습니다.
+   - FFmpeg는 별도 실행 파일로 호출되며, 사용자는 bin 폴더의 FFmpeg 파일을
+     호환되는 다른 빌드로 교체할 수 있습니다.
+
+2. Node.js
+   - 용도: YouTube 재생 서명 해독(JavaScript 실행)
+   - 포함 파일: bin\node.exe
+   - 라이선스: MIT License 및 포함 구성 요소 라이선스 (licenses\NODE_LICENSE.txt)
+   - 출처: https://nodejs.org
+
+3. yt-dlp / yt-dlp-ejs
+   - 용도: 영상 정보 확인 및 다운로드
+   - 라이선스: The Unlicense. yt-dlp-ejs 에는 astring(MIT), meriyah(ISC) 코드가 포함됩니다.
+   - 출처: https://github.com/yt-dlp/yt-dlp , https://github.com/yt-dlp/ejs
+
+4. yt-dlp 가 사용하는 파이썬 패키지
+   - Brotli (MIT): https://github.com/google/brotli
+   - certifi (MPL 2.0, 소스 코드: https://github.com/certifi/python-certifi )
+   - charset-normalizer (MIT): https://github.com/jawah/charset_normalizer
+   - idna (BSD-3-Clause): https://github.com/kjd/idna
+   - PyCryptodome(x) (BSD-2-Clause 및 Public Domain): https://github.com/Legrandin/pycryptodome
+   - Requests (Apache-2.0): https://github.com/psf/requests
+   - urllib3 (MIT): https://github.com/urllib3/urllib3
+   - websockets (BSD-3-Clause): https://github.com/python-websockets/websockets
+
+5. CustomTkinter / darkdetect / packaging
+   - 용도: 화면 구성
+   - 라이선스: CustomTkinter MIT, darkdetect BSD-3-Clause, packaging Apache-2.0 또는 BSD-2-Clause
+   - 출처: https://github.com/TomSchimansky/CustomTkinter ,
+     https://github.com/albertosottile/darkdetect , https://github.com/pypa/packaging
+
+6. Pillow
+   - 용도: 썸네일 이미지 처리
+   - 라이선스: MIT-CMU
+   - 출처: https://python-pillow.org
+
+7. Python / Tcl/Tk 및 Python에 포함된 구성 요소
+   - 용도: 프로그램 실행 환경 (Nuitka로 컴파일)
+   - 라이선스: PSF License Agreement (licenses\PYTHON_LICENSE.txt),
+     Tcl/Tk License (licenses\TCL_TK_LICENSE.txt)
+   - OpenSSL(Apache-2.0), zlib, expat, libffi, libmpdec 등 Python에 포함된 구성 요소:
+     licenses\PYTHON_COMPONENTS_LICENSES.rst
+   - SQLite: Public Domain (https://www.sqlite.org/copyright.html)
+   - 출처: https://www.python.org , https://www.tcl.tk

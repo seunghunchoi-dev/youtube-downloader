@@ -1,0 +1,18 @@
+<Configuration>
+  <Networking>Enable</Networking>
+  <MappedFolders>
+    <MappedFolder>
+      <HostFolder>C:\YTBuild\sandbox\setup</HostFolder>
+      <SandboxFolder>C:\Setup</SandboxFolder>
+      <ReadOnly>true</ReadOnly>
+    </MappedFolder>
+    <MappedFolder>
+      <HostFolder>C:\YTBuild\sandbox</HostFolder>
+      <SandboxFolder>C:\Test</SandboxFolder>
+      <ReadOnly>false</ReadOnly>
+    </MappedFolder>
+  </MappedFolders>
+  <LogonCommand>
+    <Command>powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Test\run_test.ps1</Command>
+  </LogonCommand>
+</Configuration>

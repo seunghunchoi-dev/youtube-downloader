@@ -1,0 +1,6 @@
+# 빌드용 패키지 (tools\setup_build_env.ps1 이 C:\YTBuild 파이썬에 설치)
+-r requirements.txt
+nuitka==4.3.1
+pefile
+zstandard
+ordered-set
